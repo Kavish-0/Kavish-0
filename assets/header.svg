@@ -1,19 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="130" viewBox="0 0 800 130">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
   <style>
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    .name  { font-size: 34px; font-weight: 700; fill: #4c1d95; }
-    .tag   { font-size: 15px; fill: #57606a; }
-    .loud  { font-size: 14px; fill: #8b5cf6; }
-    .quiet { font-size: 14px; fill: #c4b5fd; }
+    .name  { font-size: 30px; font-weight: 700; fill: #4c1d95; }
+    .tag   { font-size: 13px; fill: #57606a; }
+    .small { font-size: 11px; fill: #8c959f; }
+    .band  { fill: #ede9fe; }
+    .axis  { stroke: #c4b5fd; stroke-width: 1; }
+    .sig   { fill: none; stroke: #7c3aed; stroke-width: 2; stroke-linejoin: round; }
+    .cur   { stroke: #a78bfa; stroke-width: 1; stroke-dasharray: 3 3; }
+    .fault { fill: #dc2626; }
+    .ftxt  { font-size: 12px; font-weight: 700; fill: #dc2626; }
     @media (prefers-color-scheme: dark) {
       .name  { fill: #ddd6fe; }
       .tag   { fill: #8b949e; }
-      .loud  { fill: #7c3aed; }
-      .quiet { fill: #3b2a6b; }
+      .small { fill: #7d8590; }
+      .band  { fill: #2e1f5e; }
+      .axis  { stroke: #3b2a6b; }
+      .sig   { stroke: #a78bfa; }
+      .cur   { stroke: #7c3aed; }
+      .fault { fill: #f87171; }
+      .ftxt  { fill: #f87171; }
     }
   </style>
-  <text class="loud" x="0" y="18" textLength="800" lengthAdjust="spacing" xml:space="preserve">.:+*#@@#*+:. .:+*#@@#*+:. .:+*#@@#*+:. .:+*#@@#*+:. .:+*#@@#*+:. .:+*#@@#*+:.</text>
-  <text class="name" x="0" y="68" textLength="300" lengthAdjust="spacing">KAVISH GUPTA</text>
-  <text class="tag" x="0" y="96" textLength="560" lengthAdjust="spacing">SIMULATION TOOLS &#183; INTERACTIVE ENGINEERING INTERFACES</text>
-  <text class="quiet" x="0" y="124" textLength="800" lengthAdjust="spacing" xml:space="preserve">. : . : + : . : . . : + * + : . . : . : + : . : . . : + * + : . . : . : + : .</text>
+
+  <defs>
+    <clipPath id="reveal">
+      <rect x="0" y="50" width="0" height="130">
+        <animate attributeName="width" from="0" to="800" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- title -->
+  <text class="name" x="0" y="32" textLength="260" lengthAdjust="spacing">KAVISH GUPTA</text>
+  <text class="tag" x="290" y="30">ENGINE DIAGNOSTICS · INTERACTIVE INTERFACES</text>
+  <text class="small" x="800" y="62" text-anchor="end">RESIDUAL MONITOR · SAFE BAND ±3σ</text>
+
+  <!-- safe band and axis -->
+  <rect class="band" x="0" y="92" width="800" height="36"/>
+  <line class="axis" x1="0" y1="165" x2="800" y2="165"/>
+  <line class="axis" x1="0" y1="160" x2="0" y2="170"/>
+  <line class="axis" x1="200" y1="160" x2="200" y2="170"/>
+  <line class="axis" x1="400" y1="160" x2="400" y2="170"/>
+  <line class="axis" x1="600" y1="160" x2="600" y2="170"/>
+  <line class="axis" x1="800" y1="160" x2="800" y2="170"/>
+  <text class="small" x="0" y="186">T-60S</text>
+  <text class="small" x="200" y="186" text-anchor="middle">T-45S</text>
+  <text class="small" x="400" y="186" text-anchor="middle">T-30S</text>
+  <text class="small" x="600" y="186" text-anchor="middle">T-15S</text>
+  <text class="small" x="800" y="186" text-anchor="end">NOW</text>
+
+  <!-- residual signal, revealed left to right -->
+  <polyline class="sig" clip-path="url(#reveal)"
+    points="0,110 40,106 80,114 120,108 160,112 200,105 240,113 280,109 320,111 360,104
+            400,115 440,108 480,112 520,106 540,97 560,70 580,99 600,110 640,113
+            680,106 720,111 760,108 800,110"/>
+
+  <!-- sweeping cursor -->
+  <line class="cur" x1="0" y1="55" x2="0" y2="160">
+    <animate attributeName="x1" from="0" to="800" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" from="0" to="800" dur="6s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- fault flag, appears when the cursor reaches the spike -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0.3;1" keyTimes="0;0.69;0.7;0.8;0.9;1"
+             dur="6s" repeatCount="indefinite"/>
+    <circle class="fault" cx="560" cy="70" r="5"/>
+    <text class="ftxt" x="572" y="74">FAULT</text>
+  </g>
 </svg>
