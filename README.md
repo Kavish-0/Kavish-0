@@ -11,7 +11,7 @@ I'm open to internships in software engineering, simulation, and front-end devel
 
 <img src="assets/h-stack.svg" alt="stack" height="36">
 
-python · javascript · three.js · html/css · timescaledb · git · github · claude code
+python · javascript · three.js · html/css · flask · opencv · sql · timescaledb · git · github · claude code
 
 <img src="assets/h-projects.svg" alt="projects" height="36">
 
@@ -33,7 +33,16 @@ What I built:
   actually works.
 - **Docs and design.** I wrote the operator handbook and applied a unified violet/indigo
   palette across the site.
-  
+
+**[FRAS: Face Recognition Attendance System](https://github.com/Kavish-0/FRAS-Face-detection-using-AI)** · python, flask, opencv, sql, html/css · *team project*
+
+A web-based attendance system that recognises students' faces in real time with OpenCV
+and marks their attendance automatically.
+
+What I built:
+- **Frontend.** The web interface in HTML and CSS, served through Flask templates.
+- **Database.** The SQL database that stores student records and attendance entries.
+
 <img src="assets/h-stats.svg" alt="stats" height="36">
 
 <img src="assets/streak.svg" alt="Current and longest contribution streak">
