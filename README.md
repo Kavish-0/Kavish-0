@@ -33,6 +33,14 @@ What I built:
   actually works.
 - **Docs and design.** I wrote the operator handbook and applied a unified violet/indigo
   palette across the site.
+  
+<img src="assets/h-stats.svg" alt="stats" height="36">
+
+<img src="assets/streak.svg" alt="Current and longest contribution streak">
+
+<img src="assets/languages.svg" alt="Top languages by bytes">
+
+<img src="assets/year.svg" alt="The last year, one character per day">
 
 <img src="assets/h-currently.svg" alt="currently" height="36">
 
