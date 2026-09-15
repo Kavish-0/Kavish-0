@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="130" viewBox="0 0 800 130">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .name  { font-size: 34px; font-weight: 700; fill: #4c1d95; }
+    .tag   { font-size: 15px; fill: #57606a; }
+    .loud  { font-size: 14px; fill: #8b5cf6; }
+    .quiet { font-size: 14px; fill: #c4b5fd; }
+    @media (prefers-color-scheme: dark) {
+      .name  { fill: #ddd6fe; }
+      .tag   { fill: #8b949e; }
+      .loud  { fill: #7c3aed; }
+      .quiet { fill: #3b2a6b; }
+    }
+  </style>
+  <text class="loud" x="0" y="18" textLength="800" lengthAdjust="spacing" xml:space="preserve">.:+*#@@#*+:. .:+*#@@#*+:. .:+*#@@#*+:. .:+*#@@#*+:. .:+*#@@#*+:. .:+*#@@#*+:.</text>
+  <text class="name" x="0" y="68" textLength="245" lengthAdjust="spacing">kavish gupta</text>
+  <text class="tag" x="0" y="96" textLength="477" lengthAdjust="spacing">simulation tools &#183; interactive engineering interfaces</text>
+  <text class="quiet" x="0" y="124" textLength="800" lengthAdjust="spacing" xml:space="preserve">. : . : + : . : . . : + * + : . . : . : + : . : . . : + * + : . . : . : + : .</text>
+</svg>
