@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="52" viewBox="0 0 280 52"><style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;fill:#4c1d95}
+.dim{fill:#8c959f}
+.acc{fill:#7c3aed}
+@media (prefers-color-scheme:dark){text{fill:#ddd6fe}.dim{fill:#7d8590}.acc{fill:#a78bfa}}
+</style><text x="0.0 8.0 16.0 24.0 32.0 40.0 48.0 56.0 64.0 72.0 80.0 88.0 96.0 104.0 112.0 120.0 128.0 136.0 144.0 152.0 160.0 168.0 176.0 184.0 192.0" y="20" class="acc" xml:space="preserve">CURRENT STREAK     1 DAYS</text><text x="0.0 8.0 16.0 24.0 32.0 40.0 48.0 56.0 64.0 72.0 80.0 88.0 96.0 104.0 112.0 120.0 128.0 136.0 144.0 152.0 160.0 168.0 176.0 184.0 192.0" y="42" class="dim" xml:space="preserve">LONGEST STREAK     5 DAYS</text></svg>
