@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="36" viewBox="0 0 400 36">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 18px; font-weight: 700; }
+    .p { fill: #a78bfa; }
+    .t { fill: #6d28d9; }
+    .r { stroke: #ddd6fe; stroke-width: 1; }
+    @media (prefers-color-scheme: dark) {
+      .p { fill: #5b21b6; }
+      .t { fill: #a78bfa; }
+      .r { stroke: #3b2a6b; }
+    }
+  </style>
+  <text y="22"><tspan class="p" x="0">&gt;</tspan><tspan class="t" x="22 34 46 58 70">STATS</tspan></text>
+  <line class="r" x1="0" y1="33" x2="400" y2="33"/>
+</svg>
