@@ -1,22 +1,22 @@
-# Hi, I'm Kavish Gupta
+<img src="assets/header.svg" alt="Kavish Gupta: simulation tools and interactive engineering interfaces" width="100%">
 
-Student developer building simulation tools and interactive engineering interfaces
-· [LinkedIn](https://www.linkedin.com/in/kavish-gupta-2558b0309/) · [Email](mailto:kavishgupta06@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/kavish-gupta-2558b0309/) · [Email](mailto:kavishgupta06@gmail.com)
 
-## About
+<img src="assets/h-about.svg" alt="about" height="36">
 
 I'm a student who likes building software where the physics and the interface have to
 agree with each other. Most recently I worked on a real-time digital twin for drone
 engines, building the custom engine builder and the operator console.
 I'm open to internships in software engineering, simulation, and front-end development.
 
-## Stack
+<img src="assets/h-stack.svg" alt="stack" height="36">
 
 python · javascript · three.js · html/css · timescaledb · git · github · claude code
 
-## Projects
+<img src="assets/h-projects.svg" alt="projects" height="36">
 
 **[UAV-EngineTwin](https://github.com/Arman0212/UAV-EngineTwin)** · python, three.js, timescaledb · *team project with [@Arman0212](https://github.com/Arman0212)*
+
 A real-time digital twin for the piston engines in medium-altitude, long-endurance drones.
 It compares live sensor data with a physics model to diagnose faults and predict how long
 the engine can keep running.
@@ -34,7 +34,7 @@ What I built:
 - **Docs and design.** I wrote the operator handbook and applied a unified violet/indigo
   palette across the site.
 
-## Currently
+<img src="assets/h-currently.svg" alt="currently" height="36">
 
 - Learning more about fault diagnosis and predictive maintenance
 - Improving my front-end performance and 3D visualisation skills
