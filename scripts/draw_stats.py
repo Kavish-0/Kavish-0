@@ -81,8 +81,8 @@ def draw_streak(days):
         current += 1
 
     parts = [
-        line(f"CURRENT STREAK  {current:>4} DAYS", 20, "acc"),
-        line(f"LONGEST STREAK  {longest:>4} DAYS", 42, "dim"),
+        line(f"CURRENT STREAK  {current:>4} {'DAY' if current == 1 else 'DAYS'}", 20, "acc"),
+        line(f"LONGEST STREAK  {longest:>4} {'DAY' if longest == 1 else 'DAYS'}", 42, "dim"),
     ]
     write("assets/streak.svg", svg(parts, 280, 52))
 
