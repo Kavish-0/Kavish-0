@@ -9,6 +9,6 @@
       .r { stroke: #3b2a6b; }
     }
   </style>
-  <text y="22"><tspan class="p" x="0">&gt;</tspan><tspan class="t" x="22 33 44 55 66">about</tspan></text>
+  <text y="22"><tspan class="p" x="0">&gt;</tspan><tspan class="t" x="22 33 44 55 66">About</tspan></text>
   <line class="r" x1="0" y1="33" x2="400" y2="33"/>
 </svg>
