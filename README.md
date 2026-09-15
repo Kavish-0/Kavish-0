@@ -1,4 +1,4 @@
-<img src="assets/header.svg" alt="Kavish Gupta: simulation tools and interactive engineering interfaces" width="100%">
+<img src="assets/header-v2.svg" alt="Kavish Gupta: simulation tools and interactive engineering interfaces" width="100%">
 
 [LinkedIn](https://www.linkedin.com/in/kavish-gupta-2558b0309/) · [Email](mailto:kavishgupta06@gmail.com)
 
